@@ -31,15 +31,15 @@ Machine Learning application in Finance Python package
         :target: https://mlfinpy.readthedocs.io/en/latest/?version=latest
         :alt: Documentation Status
 
-**MLfin.py** is an Advance Machine Learning toolbox for financial applications. The main ideas is using
-proprietary works and code snippent by Dr. Marcos López de Prado to build a morden Pythonic package
+**MLfin.py** is an Advanced Machine Learning toolbox for financial applications. The main idea is to use
+proprietary works and code snippets by Dr. Marcos López de Prado to build a morden Pythonic package
 that implements newest tech stacks from various libraries such as Numpy, Pandas, Numba, and Scikit-Learn.
-This work inspired by the library `MlFinLab <https://github.com/hudson-and-thames/mlfinlab>`_ by
-**Hudson and Thames**. Unfortunately, the library is closed-source and I believe in the power of open
-source projects, it motivates me to build this package from ground up.
+This work was inspired by the library `MlFinLab <https://github.com/hudson-and-thames/mlfinlab>`_ by
+**Hudson and Thames**. Unfortunately, the library is closed-source yet I believe in the power of open
+source projects, I am hereby motivated to build this package from the ground up.
 
-Leverage best practice in packaging Python library, morden documentation style and comprehensive examples,
-**MLfin.py** will be the great tool for Quant Researchers, Algorithmic Traders, and Data Scientists as well as
+Leverage best practice in packaging Python libraries, modern documentation style and comprehensive examples,
+**MLfin.py** will be the great tool for Quant Researchers, Algorithmic Traders, Data Scientists as well as
 Finance students to reproduce the complex data transformation, labeling, sampling and feature engineering
 techniques with ease.
 
@@ -52,7 +52,7 @@ Installation can then be done via pip:
    pip install mlfinpy
 
 For the sake of best practice, it is good to do this with a dependency manager. I suggest you
-set yourself up with `poetry <https://github.com/sdispater/poetry>`_, then within a new poetry project
+familiarize yourself up with `poetry <https://github.com/sdispater/poetry>`_, then within a new poetry project
 run:
 
 .. code-block:: console
@@ -103,7 +103,7 @@ Download Sources
 ----------------
 
 TickData does offer about 20 days worth of raw tick data which can be sourced from their website `link`_.
-For those of you interested in working with a two years of sample tick, volume, and dollar bars, it is provided for in
+For those of you interested in working with a two years sample of tick, volume, and dollar bars, it is provided for in
 the `research repo`_. You should be able to work on a few implementations of the code with this set.
 
 .. _link: https://s3-us-west-2.amazonaws.com/tick-data-s3/downloads/ES_Sample.zip
